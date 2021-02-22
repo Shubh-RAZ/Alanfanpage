@@ -7,13 +7,12 @@ import Connect from './components/Connect/Connect';
 import Contact_us from './components/Contact_Us/Contact_us';
 import Recent from './components/Recent/Recent';
 import Career from './components/alanWalker/walker';
+import Final from './components/Final';
 function App() {
   return (
     <div className="App">
  
-        <Route path="/" exact component={Landing_page}></Route>
-       <Route path="/" exact component ={Recent}></Route>
-       <Route path="/" exact component={Connect}></Route>
+        <Route path="/" exact component={Final}></Route>
        
         <Route path="/travel" exact component={Travel}></Route>
         <Route path="/contact" exact component={Contact_us}></Route>
